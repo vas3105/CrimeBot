@@ -1,0 +1,44 @@
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #001f3f, #003366);
+}
+
+.login-box {
+  background: white;
+  padding: 52px;
+  border-radius: 29px;
+  box-shadow: 0 4px 8px rgba(220, 214, 214, 0.2);
+  text-align: center;
+  width: 300px;
+}
+
+h2 {
+  font-family: 'Georgia', serif;
+  color: #001f3f;
+}
+
+input {
+  width: 75%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #003366;
+  border-radius: 5px;
+}
+
+button {
+  width: 75%;
+  padding: 15px;
+  background: #003366;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #001f3f;
+}
