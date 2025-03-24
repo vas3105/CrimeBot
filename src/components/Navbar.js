@@ -4,7 +4,7 @@ const Navbar = ({ onLogout }) => {
   return (
     <nav>
       <h2>User Dashboard</h2>
-      <button onClick={onLogout}>Logout</button>
+      <button onClick={onLogout} style={{ width:"8%", backgroundColor: "#e63946"}}>Logout</button>
     </nav>
   );
 };

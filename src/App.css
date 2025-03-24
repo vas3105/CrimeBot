@@ -44,9 +44,9 @@ button:hover {
   background-color: #e63946;
   color: white;
   border: none;
-  padding: 5px 10px;
   border-radius: 5px;
   cursor: pointer;
+  
 }
 
 .logout-button:hover {
@@ -161,7 +161,7 @@ input {
 .task-buttons {
   display: flex;
   justify-content: center;
-  gap: 10px; /* Adds space between buttons */
+  gap: 10px; 
   margin: 20px 0;
 }
 
