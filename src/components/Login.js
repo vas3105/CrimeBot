@@ -7,7 +7,7 @@ const Login = ({ onLogin }) => {
   const [password, setPassword] = useState('');
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+   
     if (username && password) {
       onLogin();
     } else {
