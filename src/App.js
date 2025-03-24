@@ -9,7 +9,7 @@ import CaseList from "./components/CaseList";
 import Login from "./components/Login";
 
 const App = () => {
-  const [loggedIn, setLoggedIn] = useState(false);
+  const [loggedIn, setLoggedIn] = useState(true);
   const [task, setTask] = useState(null);
   const [inputText, setInputText] = useState("");
   const [aiResponse, setAiResponse] = useState("");

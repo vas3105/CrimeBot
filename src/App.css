@@ -54,27 +54,30 @@ button:hover {
 }
 
 .sidebar {
-  width: 240px;
-  background: #374151;  
-  padding: 20px;
-  color: white;
-  min-height: 10h;  
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  background-color: #333; 
+  padding: 10px 2px;
 }
 
 .sidebar ul {
-  list-style: none;
+  display: flex; 
+  list-style: none; 
   padding: 0;
+  margin: 0;
 }
 
 .sidebar li {
-  margin: 15px 0;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
   cursor: pointer;
-  padding: 10px;
-  transition: background 0.3s ease;
 }
 
 .sidebar li:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background-color: #555; 
+  border-radius: 5px;
 }
 
 .summary-cards {
